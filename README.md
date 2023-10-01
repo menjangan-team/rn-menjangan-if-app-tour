@@ -1,4 +1,4 @@
-# roziki-dev/rn-menjangan-app-tour
+# rn-menjangan-app-tour
 
 React Native Menjangan App Tour Library
 
@@ -7,7 +7,6 @@ React Native Menjangan App Tour Library
 [![CircleCI](https://circleci.com/gh/nghinv-software/react-native-app-tour.svg?style=svg)](https://circleci.com/gh/nghinv-software/react-native-app-tour)
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
-
 
 <p align="center">
   <img src="./assets/demo.gif" height="600"/>
@@ -18,10 +17,11 @@ React Native Menjangan App Tour Library
 ```sh
 yarn add @nghinv/react-native-app-tour
 ```
-or 
+
+or
 
 ```sh
-npm install git+https://github.com/roziki-dev/rn-menjangan-app-tour
+npm install git+https://github.com/menjangan-team/rn-menjangan-if-app-tour.git
 ```
 
 ```sh
@@ -149,8 +149,7 @@ export function App() {
 | scenes | `Array<Array<SceneProperty>>` | `[]` | Index of scenes |
 | options | `OptionsProperty` | `undefined` | Custom app tour props |
 
-
-* SceneProperty 
+* SceneProperty
 
 | Property | Type | Default | Description |
 |----------|:----:|:-------:|-------------|
@@ -161,7 +160,6 @@ export function App() {
 | enablePressNode | `boolean` | `false` |  |
 | nextDisable | `boolean` | `false` | disable next step button |
 | prevDisable | `boolean` | `false` | disable prev step button |
-
 
 * OptionsProperty
 
@@ -186,7 +184,6 @@ export function App() {
 | buttonTitle | `ButtonTitleProps` | `undefined` |  |
 | buttonTitleColor | `ButtonTitleColorProps` | `undefined` |  |
 
-
 * ButtonTitleProps
 
 | Property | Type | Default | Description |
@@ -196,7 +193,6 @@ export function App() {
 | next | `string` | `Next` |  |
 | finish | `string` | `Finish` |  |
 
-
 * ButtonTitleColorProps
 
 | Property | Type | Default | Description |
@@ -205,7 +201,6 @@ export function App() {
 | prev | `string` | `green` |  |
 | next | `string` | `green` |  |
 | finish | `string` | `green` |  |
-
 
 <br/>
 
@@ -242,14 +237,12 @@ export function App() {
 |----------|:----:|:-------:|-------------|
 | setSceneIndex | `React.Dispatch<React.SetStateAction<number>>` |  | Set scenes index |
 
-
 ### useEvent
 
 | Property | Type | Default | Description |
 |----------|:----:|:-------:|-------------|
 | addEventListener | `(eventName: 'AppTourEvent', callback: (data: EventData) => void) => string` |  |  |
 | removeEventListener | `(id: string) => boolean` |  |  |
-
 
 * EventData
 
@@ -261,18 +254,12 @@ export function App() {
 | scene | `SceneType` |  |  |
 
 ---
+
 ## Credits
 
-- [@Nghi-NV](https://github.com/Nghi-NV)
+* [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-app-tour.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-app-tour
 [license-badge]: https://img.shields.io/npm/l/@nghinv/react-native-app-tour.svg?style=flat-square
 [license]: https://opensource.org/licenses/MIT
-[all-contributors-badge]: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
-[all-contributors]: #contributors
-[install-size-name]: https://packagephobia.now.sh/badge?p=@nghinv/react-native-app-tour
-[install-size]: https://packagephobia.now.sh/badge?p=@nghinv/react-native-app-tour
-[download-name]: https://www.npmjs.com/package/@nghinv/react-native-app-tour
-[download-size]: https://img.shields.io/npm/dm/@nghinv/react-native-app-tour.svg?style=flat-square
-
