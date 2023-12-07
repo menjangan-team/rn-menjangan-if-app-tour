@@ -60,7 +60,6 @@
     "react-native": "0.64.2",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-reanimated": "^2.2.0",
-    "react-native-animateable-text": "~0.8.0",
     "react-native-svg": "12.1.1",
     "react-native-builder-bob": "^0.18.0",
     "release-it": "^14.10.0",
@@ -75,7 +74,8 @@
   },
   "dependencies": {
     "react-fast-compare": "*",
-    "react-native-event-listeners": "*"
+    "react-native-event-listeners": "*",
+    "react-native-animateable-text": "~0.8.0",
   },
   "jest": {
     "preset": "react-native",
