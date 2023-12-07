@@ -75,7 +75,7 @@
   "dependencies": {
     "react-fast-compare": "*",
     "react-native-event-listeners": "*",
-    "react-native-animateable-text": "~0.8.0",
+    "react-native-animateable-text": "~0.8.0"
   },
   "jest": {
     "preset": "react-native",
